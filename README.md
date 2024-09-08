@@ -17,6 +17,8 @@ It is necessary to create a product filter based on the product options. For exa
 An example would be any online store, like https://svetilniki.shop/catalog/lustri.
 
 
+TEST query through POSTMAN: http://127.0.0.1:8000/api/products?properties[style][]=Classic&properties[country][]=Germany&properties[color][]=red&properties[type][]=Test
+
 ---------------------------------------------------------------------------------------------------
 
 
@@ -38,3 +40,5 @@ An example would be any online store, like https://svetilniki.shop/catalog/lustr
 Необходимо  сделать фильтр товаров по опциям товаров, например, есть товары "настольный светильник", с опциями цвет плафона, цвет арматруы, бренд. Нужно по опциям отфильтровать товары.
 
 Также пример любой интернет магазин https://svetilniki.shop/catalog/lustri 
+
+ТЕСТОВЫЙ ЗАПРОС через POSTMAN: http://127.0.0.1:8000/api/products?properties[style][]=Classic&properties[country][]=Germany&properties[color][]=red&properties[type][]=Test
