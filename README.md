@@ -22,11 +22,11 @@ TEST query through POSTMAN: http://127.0.0.1:8000/api/products?properties[style]
 
 Used mysql:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=product_filter_api
-DB_USERNAME=root
+DB_CONNECTION=mysql\n
+DB_HOST=127.0.0.1\n
+DB_PORT=3306\n
+DB_DATABASE=product_filter_api\n
+DB_USERNAME=root\n
 DB_PASSWORD=
 
 ---------------------------------------------------------------------------------------------------
@@ -57,9 +57,9 @@ DB_PASSWORD=
 
 Использовался mysql:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=product_filter_api
-DB_USERNAME=root
+DB_CONNECTION=mysql\n
+DB_HOST=127.0.0.1\n
+DB_PORT=3306\n
+DB_DATABASE=product_filter_api\n
+DB_USERNAME=root\n
 DB_PASSWORD=
