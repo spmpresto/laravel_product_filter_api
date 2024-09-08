@@ -17,7 +17,17 @@ It is necessary to create a product filter based on the product options. For exa
 An example would be any online store, like https://svetilniki.shop/catalog/lustri.
 
 
+
 TEST query through POSTMAN: http://127.0.0.1:8000/api/products?properties[style][]=Classic&properties[country][]=Germany&properties[color][]=red&properties[type][]=Test
+
+Used mysql:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=product_filter_api
+DB_USERNAME=root
+DB_PASSWORD=
 
 ---------------------------------------------------------------------------------------------------
 
@@ -41,4 +51,15 @@ TEST query through POSTMAN: http://127.0.0.1:8000/api/products?properties[style]
 
 Также пример любой интернет магазин https://svetilniki.shop/catalog/lustri 
 
+
+
 ТЕСТОВЫЙ ЗАПРОС через POSTMAN: http://127.0.0.1:8000/api/products?properties[style][]=Classic&properties[country][]=Germany&properties[color][]=red&properties[type][]=Test
+
+Использовался mysql:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=product_filter_api
+DB_USERNAME=root
+DB_PASSWORD=
