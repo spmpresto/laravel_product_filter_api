@@ -39,7 +39,7 @@ class ProductController extends Controller
     protected function generateCacheKey(ProductFilterRequest $request)
     {
         $properties = $request->input('properties', []);
-        $page = $request->input('page', 1); c
+        $page = $request->input('page', 1);
         return 'products_' . md5(serialize($properties) . "_page_" . $page);
     }
 }
