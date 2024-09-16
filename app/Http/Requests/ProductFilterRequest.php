@@ -28,4 +28,16 @@ class ProductFilterRequest extends FormRequest
             'page' => 'nullable|integer|min:1',
         ];
     }
+
+
+    public function messages()
+    {
+        return [
+            'properties.array' => 'The properties must be an array',
+            'properties.*.array' => 'Each property must be an array of values.',
+            'properties.*.*.string' => 'The values of the properties must be strings.',
+            'page.integer' => 'The parameter "page" must be an integer.',
+            'page.min' => 'The parameter "page" must be greater than zero.',
+        ];
+    }
 }
